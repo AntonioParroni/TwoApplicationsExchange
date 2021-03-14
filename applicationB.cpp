@@ -5,41 +5,6 @@
 #include <chrono>
 #include <thread>
 
-/*
-Conditions
-        a. Use GIT (GitHub) and just share the link to project with implementation
-b. Project should be based on CMake
-c. All interfaces should be POSIX compliant
-d. Language: C/C++11
-e. Usage of RAII idioms
-Task:
-Create 2 applications:
-Requirement#1:
-First application A sends messages to application B. Messages consist of two fields: string and
-        delay value.
-String value may be arbitrary, except the case with value "Quit".
-Delay value must be in range from 250mS to 2S.
-It would be good to have information about status of application in console.
-
-Requirement#2:
-Application B waits for incoming messages and prints "Hey, I am here." each 500ms while
-waiting for the first message.
-When it receives a message from app A string to print and delay value should be replaced with
-        ones from messege payload.
-Application should keep printing to console considering values update.
-If message with payload string "Quit" is received application B should finish its execution with
-return code 0.
-If any improper payload received appropriate message should be output and values should
-remain as they were.
-Requirement#3:
-In case of any error not mentioned before both application should exit with exit code 1 and
-appropriate message printed
-        to console.
-Output:
-1) Output from console for both applications (can be stored in file);
-2) Link to source code in GitHub.
-*/
-
 using namespace std;
 
 /*
@@ -76,6 +41,9 @@ Output:
 1) Output from console for both applications (can be stored in file);
 2) Link to source code in GitHub.
 */
+
+
+
 
 struct mesg_buffer {
         long mesg_type;
