@@ -1,0 +1,3 @@
+/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles/TwoApplicationsExchange.dir
