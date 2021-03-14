@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o -o TwoApplicationsExchange 
+/usr/bin/c++ -g CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o -o TwoApplicationsExchange 

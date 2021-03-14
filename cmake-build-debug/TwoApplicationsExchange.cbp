@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/main.cpp">
+		<Unit filename="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/applicationA.cpp">
 			<Option target="TwoApplicationsExchange"/>
 		</Unit>
 		<Unit filename="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/CMakeLists.txt">

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/main.cpp" "/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o"
+  "/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/applicationA.cpp" "/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

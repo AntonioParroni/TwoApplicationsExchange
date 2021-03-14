@@ -76,27 +76,27 @@ include CMakeFiles/TwoApplicationsExchange.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TwoApplicationsExchange.dir/flags.make
 
-CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o: CMakeFiles/TwoApplicationsExchange.dir/flags.make
-CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o -c /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/main.cpp
+CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o: CMakeFiles/TwoApplicationsExchange.dir/flags.make
+CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o: ../applicationA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o -c /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/applicationA.cpp
 
-CMakeFiles/TwoApplicationsExchange.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TwoApplicationsExchange.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/main.cpp > CMakeFiles/TwoApplicationsExchange.dir/main.cpp.i
+CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/applicationA.cpp > CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.i
 
-CMakeFiles/TwoApplicationsExchange.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TwoApplicationsExchange.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/main.cpp -o CMakeFiles/TwoApplicationsExchange.dir/main.cpp.s
+CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/applicationA.cpp -o CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.s
 
 # Object files for target TwoApplicationsExchange
 TwoApplicationsExchange_OBJECTS = \
-"CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o"
+"CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o"
 
 # External object files for target TwoApplicationsExchange
 TwoApplicationsExchange_EXTERNAL_OBJECTS =
 
-TwoApplicationsExchange: CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o
+TwoApplicationsExchange: CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o
 TwoApplicationsExchange: CMakeFiles/TwoApplicationsExchange.dir/build.make
 TwoApplicationsExchange: CMakeFiles/TwoApplicationsExchange.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TwoApplicationsExchange"

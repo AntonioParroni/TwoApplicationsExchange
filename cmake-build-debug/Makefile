@@ -142,32 +142,32 @@ TwoApplicationsExchange/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/build
 .PHONY : TwoApplicationsExchange/fast
 
-main.o: main.cpp.o
+applicationA.o: applicationA.cpp.o
 
-.PHONY : main.o
+.PHONY : applicationA.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/main.cpp.o
-.PHONY : main.cpp.o
+applicationA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o
+.PHONY : applicationA.cpp.o
 
-main.i: main.cpp.i
+applicationA.i: applicationA.cpp.i
 
-.PHONY : main.i
+.PHONY : applicationA.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/main.cpp.i
-.PHONY : main.cpp.i
+applicationA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.i
+.PHONY : applicationA.cpp.i
 
-main.s: main.cpp.s
+applicationA.s: applicationA.cpp.s
 
-.PHONY : main.s
+.PHONY : applicationA.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/main.cpp.s
-.PHONY : main.cpp.s
+applicationA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.s
+.PHONY : applicationA.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TwoApplicationsExchange"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... applicationA.o"
+	@echo "... applicationA.i"
+	@echo "... applicationA.s"
 .PHONY : help
 
 
