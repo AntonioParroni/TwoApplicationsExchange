@@ -72,7 +72,8 @@ CMAKE_BINARY_DIR = /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchan
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TwoApplicationsExchange.dir/all
+all: CMakeFiles/TwoApplicationsExchangeB.dir/all
+all: CMakeFiles/TwoApplicationsExchangeA.dir/all
 
 .PHONY : all
 
@@ -82,36 +83,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TwoApplicationsExchange.dir/clean
+clean: CMakeFiles/TwoApplicationsExchangeB.dir/clean
+clean: CMakeFiles/TwoApplicationsExchangeA.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TwoApplicationsExchange.dir
+# Target rules for target CMakeFiles/TwoApplicationsExchangeB.dir
 
 # All Build rule for target.
-CMakeFiles/TwoApplicationsExchange.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TwoApplicationsExchange"
-.PHONY : CMakeFiles/TwoApplicationsExchange.dir/all
+CMakeFiles/TwoApplicationsExchangeB.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeB.dir/build.make CMakeFiles/TwoApplicationsExchangeB.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeB.dir/build.make CMakeFiles/TwoApplicationsExchangeB.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target TwoApplicationsExchangeB"
+.PHONY : CMakeFiles/TwoApplicationsExchangeB.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TwoApplicationsExchange.dir/rule: cmake_check_build_system
+CMakeFiles/TwoApplicationsExchangeB.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TwoApplicationsExchange.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TwoApplicationsExchangeB.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TwoApplicationsExchange.dir/rule
+.PHONY : CMakeFiles/TwoApplicationsExchangeB.dir/rule
 
 # Convenience name for target.
-TwoApplicationsExchange: CMakeFiles/TwoApplicationsExchange.dir/rule
+TwoApplicationsExchangeB: CMakeFiles/TwoApplicationsExchangeB.dir/rule
 
-.PHONY : TwoApplicationsExchange
+.PHONY : TwoApplicationsExchangeB
 
 # clean rule for target.
-CMakeFiles/TwoApplicationsExchange.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/clean
-.PHONY : CMakeFiles/TwoApplicationsExchange.dir/clean
+CMakeFiles/TwoApplicationsExchangeB.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeB.dir/build.make CMakeFiles/TwoApplicationsExchangeB.dir/clean
+.PHONY : CMakeFiles/TwoApplicationsExchangeB.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TwoApplicationsExchangeA.dir
+
+# All Build rule for target.
+CMakeFiles/TwoApplicationsExchangeA.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeA.dir/build.make CMakeFiles/TwoApplicationsExchangeA.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeA.dir/build.make CMakeFiles/TwoApplicationsExchangeA.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TwoApplicationsExchangeA"
+.PHONY : CMakeFiles/TwoApplicationsExchangeA.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TwoApplicationsExchangeA.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TwoApplicationsExchangeA.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/TwoApplicationsExchangeA.dir/rule
+
+# Convenience name for target.
+TwoApplicationsExchangeA: CMakeFiles/TwoApplicationsExchangeA.dir/rule
+
+.PHONY : TwoApplicationsExchangeA
+
+# clean rule for target.
+CMakeFiles/TwoApplicationsExchangeA.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeA.dir/build.make CMakeFiles/TwoApplicationsExchangeA.dir/clean
+.PHONY : CMakeFiles/TwoApplicationsExchangeA.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

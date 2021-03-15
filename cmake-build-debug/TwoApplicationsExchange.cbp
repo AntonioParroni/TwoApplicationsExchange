@@ -27,6 +27,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TwoApplicationsExchangeB">
+				<Option output="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/TwoApplicationsExchangeB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoApplicationsExchangeB"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TwoApplicationsExchangeB/fast">
+				<Option output="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/TwoApplicationsExchangeB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoApplicationsExchangeB/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,8 +81,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TwoApplicationsExchange">
-				<Option output="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/TwoApplicationsExchange" prefix_auto="0" extension_auto="0"/>
+			<Target title="TwoApplicationsExchangeA">
+				<Option output="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/TwoApplicationsExchangeA" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +97,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoApplicationsExchange"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoApplicationsExchangeA"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TwoApplicationsExchange/fast">
-				<Option output="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/TwoApplicationsExchange" prefix_auto="0" extension_auto="0"/>
+			<Target title="TwoApplicationsExchangeA/fast">
+				<Option output="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/TwoApplicationsExchangeA" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,7 +119,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoApplicationsExchange/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoApplicationsExchangeA/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -83,7 +127,10 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/applicationA.cpp">
-			<Option target="TwoApplicationsExchange"/>
+			<Option target="TwoApplicationsExchangeA"/>
+		</Unit>
+		<Unit filename="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/applicationB.cpp">
+			<Option target="TwoApplicationsExchangeB"/>
 		</Unit>
 		<Unit filename="/home/ray/Documents/DTTAH/windows/CLion/TwoApplicationsExchange/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -130,17 +130,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TwoApplicationsExchange
+# Target rules for targets named TwoApplicationsExchangeB
 
 # Build rule for target.
-TwoApplicationsExchange: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TwoApplicationsExchange
-.PHONY : TwoApplicationsExchange
+TwoApplicationsExchangeB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TwoApplicationsExchangeB
+.PHONY : TwoApplicationsExchangeB
 
 # fast build rule for target.
-TwoApplicationsExchange/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/build
-.PHONY : TwoApplicationsExchange/fast
+TwoApplicationsExchangeB/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeB.dir/build.make CMakeFiles/TwoApplicationsExchangeB.dir/build
+.PHONY : TwoApplicationsExchangeB/fast
+
+#=============================================================================
+# Target rules for targets named TwoApplicationsExchangeA
+
+# Build rule for target.
+TwoApplicationsExchangeA: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TwoApplicationsExchangeA
+.PHONY : TwoApplicationsExchangeA
+
+# fast build rule for target.
+TwoApplicationsExchangeA/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeA.dir/build.make CMakeFiles/TwoApplicationsExchangeA.dir/build
+.PHONY : TwoApplicationsExchangeA/fast
 
 applicationA.o: applicationA.cpp.o
 
@@ -148,7 +161,7 @@ applicationA.o: applicationA.cpp.o
 
 # target to build an object file
 applicationA.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeA.dir/build.make CMakeFiles/TwoApplicationsExchangeA.dir/applicationA.cpp.o
 .PHONY : applicationA.cpp.o
 
 applicationA.i: applicationA.cpp.i
@@ -157,7 +170,7 @@ applicationA.i: applicationA.cpp.i
 
 # target to preprocess a source file
 applicationA.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeA.dir/build.make CMakeFiles/TwoApplicationsExchangeA.dir/applicationA.cpp.i
 .PHONY : applicationA.cpp.i
 
 applicationA.s: applicationA.cpp.s
@@ -166,8 +179,35 @@ applicationA.s: applicationA.cpp.s
 
 # target to generate assembly for a file
 applicationA.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchange.dir/build.make CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeA.dir/build.make CMakeFiles/TwoApplicationsExchangeA.dir/applicationA.cpp.s
 .PHONY : applicationA.cpp.s
+
+applicationB.o: applicationB.cpp.o
+
+.PHONY : applicationB.o
+
+# target to build an object file
+applicationB.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeB.dir/build.make CMakeFiles/TwoApplicationsExchangeB.dir/applicationB.cpp.o
+.PHONY : applicationB.cpp.o
+
+applicationB.i: applicationB.cpp.i
+
+.PHONY : applicationB.i
+
+# target to preprocess a source file
+applicationB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeB.dir/build.make CMakeFiles/TwoApplicationsExchangeB.dir/applicationB.cpp.i
+.PHONY : applicationB.cpp.i
+
+applicationB.s: applicationB.cpp.s
+
+.PHONY : applicationB.s
+
+# target to generate assembly for a file
+applicationB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoApplicationsExchangeB.dir/build.make CMakeFiles/TwoApplicationsExchangeB.dir/applicationB.cpp.s
+.PHONY : applicationB.cpp.s
 
 # Help Target
 help:
@@ -177,10 +217,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... TwoApplicationsExchange"
+	@echo "... TwoApplicationsExchangeA"
+	@echo "... TwoApplicationsExchangeB"
 	@echo "... applicationA.o"
 	@echo "... applicationA.i"
 	@echo "... applicationA.s"
+	@echo "... applicationB.o"
+	@echo "... applicationB.i"
+	@echo "... applicationB.s"
 .PHONY : help
 
 

@@ -3,4 +3,5 @@ project(TwoApplicationsExchange)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TwoApplicationsExchange applicationA.cpp)
+add_executable(TwoApplicationsExchangeA applicationA.cpp)
+add_executable(TwoApplicationsExchangeB applicationB.cpp)

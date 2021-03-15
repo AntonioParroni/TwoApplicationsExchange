@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TwoApplicationsExchange.dir/applicationA.cpp.o"
+  "CMakeFiles/TwoApplicationsExchange.dir/applicationB.cpp.o"
   "TwoApplicationsExchange"
   "TwoApplicationsExchange.pdb"
 )
