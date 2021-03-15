@@ -66,8 +66,8 @@ class Message
                     {
                         delayVal = 0;
                         cout << "Incorrect Input, Please Try Again!" << endl;
+                        cin.sync(); // не знаю как пофиксить этот скрытый баг :(
                         cin.clear();
-                        cin.ignore(256, '\n');
                         (cin >> delayVal).get();
                     }
             }
